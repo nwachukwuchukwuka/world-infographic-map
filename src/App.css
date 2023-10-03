@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+.app {
+  max-width: 1200px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.country-card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.country_card {
+  margin-left: 10px;
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+.hero {
+  background-color: rgb(241, 241, 241);
+}
+
+.hero_banner {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  width: 600px;
+  font-size: 19px;
+  color: rgb(86, 85, 85);
+}
+
+.map {
+  width: 100%;
+  height: 60vh;
+}
+
+.text_field {
+  width: 400px;
+  position: relative;
+  bottom: 25px;
+  left: 300px;
+  background-color: white;
+}
+.input_label {
+  width: 180px;
+  position: relative;
+  bottom: 30px;
+  left: 350px;
+  background-color: white;
+}
+.country {
+  background-color: rgb(255, 254, 254);
+}
+
+.country-detail-wrapper {
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+  padding-top: 28px;
+  justify-content: space-between;
+}
+
+.country-detail-wrapper img {
+  width: 600px;
+  height: 620px;
+  object-fit: fill;
+}
+
+.country-detail-wrapper h1 {
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+.country-detail-wrapper p {
+  font-size: 20px;
+}
+
+.country-detail {
+  margin-top: 100px;
+  margin-right: 100px;
+  margin-left: 70px;
+}
+
+@media (max-width: 767px) {
+  .text_field {
+    width: 200px;
+    position: relative;
+    bottom: 25px;
+    left: 80px;
+    background-color: white;
+  }
+  .input_label {
+    width: 180px;
+    position: relative;
+    bottom: 27px;
+    left: 80px;
+    background-color: white;
+  }
+
+  .hero_banner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero p {
+    width: 300px;
+    font-size: 17px;
+  }
+
+  .hero h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+  }
+
+  .map {
+    height: 30vh;
+  }
+
+  .country_card {
+    margin-left: 0;
+    width: 260px;
+    margin-bottom: 20px;
+  }
+
+  .country-detail-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+
+  .country-detail-wrapper img {
+    width: 95%;
+    height: 50vh;
+    object-fit: contain;
+    margin-left: 10px;
+  }
+
+  .country-detail-wrapper h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .country-detail-wrapper p {
+    font-size: 20px;
+  }
+
+  .country-detail {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
